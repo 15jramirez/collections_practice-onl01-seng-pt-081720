@@ -37,7 +37,7 @@ def sort_array_desc (array)
  end
  
  def sum_array(array)
-   
+   array.inject{
  end
  
  def add_s (array)
