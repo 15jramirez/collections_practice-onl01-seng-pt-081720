@@ -48,7 +48,6 @@ def sort_array_desc (array)
      else
        "feet"
      end
-     array
      end
        
    
