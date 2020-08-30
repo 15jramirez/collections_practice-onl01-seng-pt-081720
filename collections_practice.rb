@@ -33,6 +33,7 @@ def sort_array_desc (array)
  
  def find_a (array)
    array.detect{|letter| letter.start_with? "a"}
+   array
  end
  
  def sum_array(array)
