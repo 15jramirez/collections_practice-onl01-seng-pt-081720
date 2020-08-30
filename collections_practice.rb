@@ -25,11 +25,10 @@ def sort_array_desc (array)
  end
  
  def kesha_maker(array)
-   dollar_sign=[]
    array.each do |word|
-     dollar_sign <<  word[2] = "$"
+   word[2] = "$"
    end
-   dollar_sign
+   array
  end
  
  def find_a (array)
